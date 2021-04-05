@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="myFunction()">Coba klik deh</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  var person = prompt("Please enter your name:", "Nama lengkap kamuu yaaa");
+  if (person == null || person == "") {
+    txt = "User cancelled the prompt.";
+  } else {
+    txt = "Halo " + person + "! Happy Birthday, Sweetheart!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+<br><br><br>
+<a href="Birthday.html"><input type="button" value="Klik ini buat liat wish dari Mifta" size="20px" onclick="alert('senyumm duluu donggg gantengg');" style="font size="7"></a>
+</body>
+</html>
+ 
